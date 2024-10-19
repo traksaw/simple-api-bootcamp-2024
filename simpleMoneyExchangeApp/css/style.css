@@ -1,0 +1,65 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;;
+}
+
+html {
+  background-color: black;
+  color: #00ff41;
+}
+h1 {
+  font-size: 48px;
+}
+p {
+  color: #008F11;
+  font-size: 26px;
+}
+h3 {
+  color: #003B00;
+  font-size: 30px;
+}
+h1,
+p,
+h3 {
+  text-align: center;
+}
+input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;
+  text-align: center;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (min-width: 412px) and (max-width: 1024px)  {
+  h1 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 38px;
+  }
+  p {
+    font-size: 30px;
+  }
+  input {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 412px) {
+  h1 {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Simple Money Exchange">
+	<meta name="Money Exchange" content="Simple Money Exchange">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Simple Money Converter</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Orbitron:wght@400..900&display=swap"
+		rel="stylesheet">
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section class="introSection">
+		<h1>Money Exchange Converter</h1>
+		<p>Place amount you want to convert below</p>
+	</section>
+	<section class="inputSection">
+		<input type="number" id="moneyInserted" placeholder="Please enter amount">
+		<!-- <input type="date"> -->
+		<input type="button" id="convertBtn" value="Convert">
+	</section>
+	<section class="moneyDisplaySection">
+		<h3 class="hidden" id="USD"></h3>
+		<h3 class="hidden" id="GBP"></h3>
+		<h3 class="hidden" id="EUR"></h3>
+		<h3 class="hidden" id="JPY"></h3>
+		<h3 class="hidden" id="AUD"></h3>
+		<h3 class="hidden" id="CAD"></h3>
+		<h3 class="hidden" id="CHF"></h3>
+		<h3 class="hidden" id="NZD"></h3>
+		<h3 class="hidden" id="HKD"></h3>
+	</section>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
